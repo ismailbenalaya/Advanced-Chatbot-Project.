@@ -1,35 +1,43 @@
-#  Project Name
+# Chatbot with Context-Aware Responses
 
-A short description of your project
+A Python chatbot designed to provide context-aware responses by matching user input with predefined answers using fuzzy matching.
 
-##  Getting Started
+## Prerequisites
 
-These are the steps to get started using your project:
+- Python 3.7 or higher
 
-1. **Installation**
-   * How to install your project
-2. **Usage**
-   * How to use your project
+## Installation
 
-##  Contributing
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/chatbot.git
+   cd chatbot
+   ```
 
-If you would like to contribute to this project, here are some guidelines:
+2. Ensure Python is installed on your system. Run the chatbot:
+   ```bash
+   python chatbot.py
+   ```
 
-1. Fork the repository
-2. Clone the forked repository to your machine
-3. Create a new branch for your changes
-4. Make your changes and commit them to your branch
-5. Push your changes to your forked repository
-6. Create a pull request from your forked repository to the upstream repository
+## Example Usage
 
-##  License
+The chatbot operates in a conversational loop. Type your input, and the bot will respond based on its knowledge base.
 
-The project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+### Sample Conversation
 
-##  Authors
+```plaintext
+You: hello
+Bot: Hey there! How can I assist you today?
 
-* A list of contributors
+You: what is your name
+Bot: I am your friendly chatbot! How can I assist you today?
 
-##  Acknowledgments
+You: tell me a joke
+Bot: Why don't skeletons fight each other? They don't have the guts!
 
-* A list of people or projects that you want to acknowledge
+You: goodbye
+Bot: See you soon! Take care!
+```
+
+The chatbot supports a variety of commands such as greetings, asking for help, and general queries. Expand the knowledge base in the source code to customize responses.
+
